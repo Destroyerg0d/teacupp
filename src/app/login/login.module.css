@@ -1,0 +1,88 @@
+/* login.module.css */
+
+/* Main container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/image1.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Login box */
+.login-box {
+  background-color: rgba(255, 255, 255, 0.85); /* Slight transparency */
+  padding: 2rem;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+/* Heading */
+.heading {
+  margin: 1rem 0;
+  font-size: 24px;
+  color: #5c4033;
+}
+
+/* Subtitle */
+.login-subtitle {
+  margin-bottom: 1.5rem;
+  color: #5c4033;
+  font-size: 14px;
+}
+
+/* Input container */
+.input-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black; /* Make text black */
+}
+
+/* Login button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #5c4033;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: #3c2c23;
+}
+
+/* Action buttons */
+.action-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #5c4033;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.link-btn:hover {
+  text-decoration: none;
+}

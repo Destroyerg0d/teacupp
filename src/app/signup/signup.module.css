@@ -1,0 +1,136 @@
+/* Main container */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/image1.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Signup box */
+.signup-box {
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  padding: 3rem;
+  border-radius: 15px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+/* Heading */
+.heading {
+  margin: 1rem 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5c4033;
+}
+
+/* Subtitle */
+.signup-subtitle {
+  margin-bottom: 1.5rem;
+  color: #5c4033;
+  font-size: 14px;
+}
+
+/* Input container */
+.input-container {
+  margin-bottom: 1rem;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+}
+
+/* Row input for first name and last name */
+.input-container-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.input-half {
+  width: 48%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+}
+
+/* Date of Birth */
+.dob-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.input-dob {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Gender Selection */
+.gender-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.gender-container label {
+  font-size: 14px;
+  color: #5c4033;
+}
+
+/* Sign-up button */
+.signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #5c4033;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1.5rem;
+}
+
+.signup-btn:hover {
+  background-color: #3c2c23;
+}
+
+/* Action buttons */
+.action-buttons {
+  margin-top: 1rem;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #5c4033;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.link-btn:hover {
+  text-decoration: none;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+}

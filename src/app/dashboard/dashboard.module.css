@@ -1,0 +1,111 @@
+/* Dashboard container */
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Chat list on the left */
+  .chatList {
+    width: 30%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+    padding: 1rem;
+  }
+  
+  /* Chat list header */
+  .chatListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chatListHeader h2 {
+    margin: 0;
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 8px;
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Chat items */
+  .chatItems {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .chatItem {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chatItem:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .chatInfo h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .chatInfo p {
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .chatTime {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  /* Active chat */
+  .activeChat {
+    background-color: #cceeff;
+  }
+  
+  /* Chat window on the right */
+  .chatWindow {
+    width: 70%;
+    background-color: #fff;
+    padding: 2rem;
+  }
+  
+  /* Chat detail view */
+  .chatDetail {
+    text-align: left;
+  }
+  
+  .chatDetail h2 {
+    font-size: 24px;
+  }
+  
+  .welcomeMessage {
+    text-align: center;
+    margin-top: 10rem;
+  }
+  
+  .welcomeMessage h2 {
+    font-size: 32px;
+  }
+  
+  .welcomeMessage p {
+    font-size: 18px;
+  }
+  
+  /* Loading and error messages */
+  .loader, .error {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 20px;
+  }
+  
